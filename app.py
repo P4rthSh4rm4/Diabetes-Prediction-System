@@ -5,7 +5,7 @@ import gradio as gr
 import joblib
 
 # Load the trained Decision Tree model at startup
-deployed_dt = joblib.load('diabetes_prediction_model.pkl')
+deployed_dt = joblib.load('Diabetes_prediction_model.pkl')
 
 # --- CODE BLOCK: PREDICTION LOGIC FOR 5 FEATURES ---
 def predict_diabetes(pregnancies, glucose, insulin, bmi, age):
@@ -45,7 +45,7 @@ import gradio as gr
 import joblib
 
 # Load the trained Decision Tree model at startup
-deployed_dt = joblib.load('diabetes_prediction_model.pkl')
+deployed_dt = joblib.load('Diabetes_prediction_model.pkl')
 
 # --- CODE BLOCK: PREDICTION LOGIC FOR 5 FEATURES ---
 def predict_diabetes(pregnancies, glucose, insulin, bmi, age):
